@@ -77,19 +77,3 @@ class DB {
 }
 
 export default DB;
-
-//   const getConfig = (): IEnv => {
-//     return {
-//       NODE_ENV: process.env.MONGO_URI !== undefined ? process.env.MONGO_URI : "",
-//       PORT: process.env.PORT ? Number(process.env.PORT) : 0,
-//       SQL_SERVER_URI: process.env.SQL_SERVER_URI !== undefined ? process.env.SQL_SERVER_URI : ""
-//     };
-//   };
-
-// dotenv.config();
-//     const database = mongoose.connect(getConfig().NODE_ENV)
-//         .then()
-//         .catch(err => console.error(err));
-
-// export default database;
-
